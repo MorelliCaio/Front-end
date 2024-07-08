@@ -95,5 +95,3 @@
 >> Conhecendo outras propriedades CSS <<
 
     <> Div é uma tag que não tem valor semantico </>
-
-
