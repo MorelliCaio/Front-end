@@ -96,4 +96,44 @@
 
     <> Div é uma tag que não tem valor semantico </>
 
+<< Estara referenciado dentro do arquivo "linkinterno.html"
+>> Trabalhando com links internos <<
+
+    <> Para criar um link interno, é necessario criar um indentificador na tag para ser linkado. passando na tag de abertura um atributo "id" </>
+    <> Para trabalhar com um id no html e css, é necessario o uso de um "#" </>
+
+>> Disponibilizando link de Download <<
+
+    <> dentro do link, preciso colocar o caminho para aonde estara o arquivo que quero disponibilizar para download </>
+    <> É necessario colocar o atributo download ao lado do href </>
+
+>> Adicionando favicon <<
+
+    <> É a imagem que fica ao lado do nome da pagina na aba </>
+    <> colocamos no head da pagina, para carregar no inicio, e é bem parecido como colocar um link na pagina </>
+    <> A imagem precisa ter 32x32 </>
+
+<< Referenciado no arquivo "details.html"
+>> Conhecendo tag details <<
+
+    <> É uma tag de "Detalhamento". </>
+    <> Onde, na pagina, podemos colocar um titulo, que quando é clicado, mostra mais detalher a respeito daquilo </>
+
+>> Tag del <<
+
+    <> Uma tag que risca um pedaço do texto para "desconsiderar" </>
+    <> Seria como uma estilização, mas creio que isso ajuda um pouco a semantica da pagina a ficar organica </>
+
+>> Escape para caracteres especiais <<
+
+    <> &lt; - menor que (lower then) / &gt; - maior que (greater than) </>
+    <> tem um site que mostra varios caracteres para poder transformar no HTML </>
+
+>> Comentario no HTML <<
+
+    <> O codigo de comentario, é composto por <!--comentario inserido aqui--> </>
+    <> Para poder colocar um comentario em algo que ja esta escrito, podemos usar o ctrl + ;, assim ele ja comenta o que esta demarcado </>
+
+>> Tag de audio <<
+
     
