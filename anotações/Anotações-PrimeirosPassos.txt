@@ -96,7 +96,7 @@
 
     <> Div é uma tag que não tem valor semantico </>
 
-<< Estara referenciado dentro do arquivo "linkinterno.html"
+<< Estara referenciado dentro do arquivo "linkinterno.html" >>
 >> Trabalhando com links internos <<
 
     <> Para criar um link interno, é necessario criar um indentificador na tag para ser linkado. passando na tag de abertura um atributo "id" </>
@@ -113,7 +113,7 @@
     <> colocamos no head da pagina, para carregar no inicio, e é bem parecido como colocar um link na pagina </>
     <> A imagem precisa ter 32x32 </>
 
-<< Referenciado no arquivo "details.html"
+<< Referenciado no arquivo "details.html" >>
 >> Conhecendo tag details <<
 
     <> É uma tag de "Detalhamento". </>
@@ -128,12 +128,55 @@
 
     <> &lt; - menor que (lower then) / &gt; - maior que (greater than) </>
     <> tem um site que mostra varios caracteres para poder transformar no HTML </>
+    <> https://developer.mozilla.org/en-US/docs/Glossary/Character_reference </>
 
 >> Comentario no HTML <<
 
     <> O codigo de comentario, é composto por <!--comentario inserido aqui--> </>
     <> Para poder colocar um comentario em algo que ja esta escrito, podemos usar o ctrl + ;, assim ele ja comenta o que esta demarcado </>
 
+<< referenciado no arquivo "Media.html" >>
 >> Tag de audio <<
 
-    
+    <> Usado para quando queremos colocar uma trilha de fundo no site, ou queremos adicionar algo que pode dar play </>
+    <> É necessario usar um pouco de bom senso ksksk </>
+    <> É necessario, assim como qualquer outra midia em html, passar o caminho pelo atributo src, e para ter o controle da musica na tela, é necessario o atributo "controls" </>
+    <> O src vem de source, que é um atributo das tags de media </>
+    <> O autoplay é bloqueado pelos navegadores </>
+    <> Os atributos de muted e de loop, só podemos colocar na tag audio, na tag source </>
+
+>> Tag de video <<
+
+    <> A tag de video é bem parecido com a tag de audio, porem, podemos utilizar tb o atreibuto de proporção </>
+    <> O player de audio vem pronto, ja com a possibilidade de navegação, ou seja, transformar o video em pop-up </> 
+    <> Podemos dar autoplay em video, desde que o muted esteja ali, antes do autoplay </>
+
+>> Incorporando do twitter <<
+
+    <> Podemos incorporar entrando no proprio twitter, por exemplo, e eles mesmo nos da a opção para isso </>
+
+>> Incorporando para do google <<
+
+    <> Da mesma maneira que do twitter, o proprio google nos da a forma de incorporar </>
+    <> ele vem via tag iframe, que é um tipo de tag que não pode ser manipulada com javascripit, ja que a pagina vem de um outro dono </>
+
+>> Incorporando do youtube <<
+
+    <> Da mesma maneira do twitter e do google, o youtube tb é quase a mesma coisa. só precisa ter cuidado com o direito altorarl </>
+
+<< Referenciado no arquivo "Semantica.HTML" >>
+>> O que é semantica e sua importancia na Web <<
+
+    <> O que é semantica? Sentido da palavra. Nomear e escolher tags que faça sentido com o conteudo que esta sendo aplicado </>
+    <> A busca no google é baseado na semantica do site, o google vai elencar e jogar pra cima se a semantica estiver boa </>
+
+>> Estrutura de uma página semantica <<
+
+    <> intem de um Menu, Link de navegação </>
+    <> a tag para cabeçaçalho é o header. Ela pode ser utilizada em varias partes dessas seções superiores </>
+    <> nav para uma seção de navegação </>
+    <> Tag tem que fazer sentido, o estilo a gnt resolve no CSS </>
+    <> Tag main, serve para ficar com o conteudo principal da pagina </>
+    <> também temos a tag que serve exatamente para o rodapé, que é o footer </>
+    <> e temos as seções, que podemos usar a section </>
+    <> A tag strong, nos usamos para dar relevancia nas palavras, diferente do que usar a tag b de bold, que é apenas para deixar em negrito. da mesma maneira a tag em para a tag i </>
