@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!-- Formulários -->
+    <!-- A principal forma de interação entre o usutario a a página -->
+    <!-- Um formulário HTML é feito de um ou mais widgets. Esses widgets podem ser campos de texto, caixas de seleção, botões, checkboxes, tadio buttons, entre outros elementos HTML -->
+    <!-- Para construir um formulário de contato, podemosutilizar os seguintes elementos: form, label, input, textarea, button -->
+
+    <fieldset> <!-- Usado para agrupar elementos em um formulario -->
+
+    <form action="/" method="post"> <!-- Este ele mento define um formulário e os seus atributos definem maneira como esse formulário se comporta-->
+
+        <label>Nome:</label> <!-- A maneira formal de definir um rótulo-->
+
+        <input type="text"> <!-- É usado para criar controles interativos que recebem dados do usuario. Sua semantica pode variar dependendo do valor do atributo type. o padrão é o text -->
+        <!-- o type define o tipo do nosso input. Exemplo: email, define que só será aceiro endereço de email -->
+        <!-- Temos também outros atributos possiveis:
+         - Um botão sem comportamento padrçao: "button";
+         - Uma caixa de marcação: "checkbox";
+         - Um controle para especificar cores: "color";
+         - Um controle para inserir uma data: "date";
+         - Um campo para editar um endereço de email: "email";
+         - Um controle que permite ao usuário selecionar um arquivo: "file";
+         - Um campo de senha cujo valor é ocutado: "password";
+         - Um campo de texto com uma só linha para digitar termos de busca: "search".-->
+         <br>
+         <label>Email:</label>
+         <input type="email">
+         <input type="submit">
+    </form>
+    </fieldset> 
+    <legend>Contato</legend> <!-- representa um rótulo para o conteudo do fieldset -->
+</body>
+</html>
