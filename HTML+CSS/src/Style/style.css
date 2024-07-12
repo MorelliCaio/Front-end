@@ -1,0 +1,85 @@
+/* Primeiro precisamos indicar um seletor (pela tag, ig ou class) e dentro das chaves inserimos os comandos referentes à formatação, que são as propriedades e valores */
+/* 
+Exemplo:
+seletor {
+    propriedade:valor;
+} 
+*/
+
+/* Variaveis */
+/* Como uma aplicação front-end pode ter uma infinidade de arquivos CSS, temos a possibilidade de fazer como se fosse uma função de alguma coisa que se repete o codigo inteiro. Aqui vai um exemplo de como é a execução de uma Variavel no CSS: ainda não entendi, mas no meu não deu certo */
+
+/* Vamos resetar os padrões dos navegadores */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Quando criamos um container, sempre usamos uma largura e altura (no nosso exemplo, vai ser 300px em cada um) caso queira colocar um espaçamento interno nele (passing) de 30px, o elemento vai tornar 330px. esse elemento ira manter o tamanho do container e com o valor do espaçamento aplicado nele*/
+}
+
+
+/* Unidade de medida */
+/* No livro eFront, só sera citado 2, PX (medida absoluta) e REM (medida relativa) */
+/* As medidas absolutas são as mais comuns de vermos no dia a dia. É uma unidade que não necessita de uma referencia. Ela é definida pela fisica, assim como pixel, metros, centimetros... Por conta de acessibilidade, não é muito usual usar essa unidade de medida, pois ela é absoluta, e não aumenta e nem diminui caso o usuário queira mudar*/
+/* Seletor por class */
+.titulo{  /*Exemplo Seletor através da class*/
+    color:aqua;
+    background-color: antiquewhite;
+    font-size: 1cm;
+    font-size: 10mm;
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+}
+html{
+    font-size: 62.5%; /*UNIDADE SEMPRE COM PONTO*/
+    /*Se eu declarar essa porcentagem de medida ja no meu html, 1rem se torna 10px, o que fica mais facil de relativisar as medidas de letras e outros atributos da pagina*/
+}
+/* Ja as medidas relativas, o uso delas é mais apropriado para que possamos fazer ajustes em diferentes dispositivos. Garantindo assim um layout consistente e fluito em diferentes mídias. */
+/* Seletor por tag */
+.title { /*Exemplo Seletor através do ID*/
+    color: red;
+    background-color: blanchedalmond;
+    font-size: 1rem; /* 1 rem, é igual a 16px */
+    font-size: 20px;
+    width: 10em;
+}
+
+#rel {
+    background-color: blueviolet;
+    height: 30vh;
+    width: 50vw;
+}
+
+
+/* Cores */
+/* RGB e HEX são formtos de composição de cores. Após compreender esse tema, você pode escolher um dos formatos para utilizá-la mais frequentemente nos projetos. Mas esses não são os únicos formatos disponiveis no CSS, porém são os mais utilizados. */
+/* Seletor por id */
+#Cores{ 
+    color: rgb(255, 200, 10); /* 3 valores: red, blue, e green. Valor maximo 255, valor minimo 0 */
+    color: rgba(255,200,10,0.5); /* o a (vem de alpha) é onde podemos definir a opacidade RGB. 1 é totalmente opaco, 0 totalmente transparente */ 
+    background-color: black;
+}
+#cores2{
+    color: #00ff00; /* HEX: hexadescimal. 00 - red, ff- green, 00 - blue (a ordem dos seletores) */
+    background-color: black;
+}
+
+/* Para usar este seletor, não pode ter nada entre os elementos */
+div + p { 
+    color: #f00;
+    background-color: aqua;
+}
+/* Seleciona todos os elementos < p > com a tag .tast */
+p.test {
+    color: #f00;
+    background-color: rgb(255, 255, 129);
+}   
+/* Seleciona todos os elementos filhos de algum elemento */
+div > p {
+    color: #f00;
+    background-color: aquamarine;
+}
+
+
+/* Preenchimento */
+/* As propriedades CSS são usadas para gerar espaço em torno ou dentro do conteudo */

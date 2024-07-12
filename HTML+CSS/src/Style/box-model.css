@@ -1,0 +1,24 @@
+.padding{
+    background-color: aqua;
+    display: inline-block;
+    padding: 20px; /* É usada para gerar espaço em torno do conteúdo. Ele "limpa" uma área ao redor do conteúdo (dentro da borda) de um elemento. */
+}
+
+.border {
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.bloco{
+    background-color: brown;
+    display: inline-block;
+    /* Margem de 20px nos quatro lados */
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin: 20px; /*Define o tamanho do espaço de fora da borda. O margin é usado para gerar espaço em torno do elemento*/
+    /* Também pode definir os espaçõs individualmente, mas lembre-se sempre da ordem: top, right, botton e left */
+}

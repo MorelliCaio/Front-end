@@ -1,0 +1,33 @@
+#FlexboxPai{
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    /* A propriedade abaixo define como o navegador distribui o espaço entre e ao redor dos idens ao longo do eixo principal de um container flexivel. a propriedade só funcionara com flex */
+    justify-content: flex-start; /* Padrã */
+    /* Os itens forão alinhados no começo do eixo principal. */
+    justify-content: flex-end; /* Os itens são alinhados no final do eixo */
+    justify-content: center; /* Não sendo necessario apontar o flex no inicio, os itens ficam alinhados ao meio */
+    justify-content: space-between; /* O primeiro fica no começo, e o ultimo no fim. O restante se alinham entre si no meio */
+    justify-content: space-around; /* Pega todo o espaço que sobra na linha e distribui em toda igualmente, deixando o espaço igual em toda a linha do eixo principal */
+    justify-content: space-evenly; /* O espaço é distribuido igualmente entre cada elemento, ou seja, um ao lado do outro, com exceção do primeiro e último do eixo principal */
+}
+
+
+/* Para centralizar o verticalmente, é usado a propriedade align-items, para alinhar os itens na transversal. */
+#FlexboxPai2{
+    background-color: aqua;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start; /* Padrão */
+    /* Os itens são postos no começo do eixo transversal */
+    align-items: flex-end; /* Os itens são alocados no final do eixo transversal */
+    align-items: stretch; /* Os itens se estenderão por todo o eixo. */
+    align-items: center; /* Os itens são alinhados no meio do eixo */
+    align-items: baseline; /* Alinha os itens de acordo com a linha base da tipografia. */
+    
+}
+
+.FlexboxFilho{
+    background-color: beige;
+    padding: 10px;
+}

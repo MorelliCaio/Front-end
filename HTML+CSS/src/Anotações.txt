@@ -1,0 +1,37 @@
+Medidas absolutas
+Unidades que são apresentadas da mesma forma em todos os lugares.
+
+cm - centímetros ( 96px / 2.54 );
+mm - milímetros ( 1/10cm );
+q - ¼ de milímetro ( 1/40cm );
+in - polegadas ( 2,54cm = 96px );
+pc - pica ( 12pt ou 1/6in );
+px - pixels ( 1/96in );
+pt - pontos ( 1/71in ).
+Medidas Relativas
+Tem seu valor em relação ao valor de uma outra propriedade.
+% - porcentagem (tecnicamente % não é uma unidade, e sim, um tipo de dado);
+em - relativo ao tamanho da fonte do elemento. Se o tamanho da fonte for 16px e você colocar 0.5em, o valor será igual a 8px;
+rem - igual ao em, mas em relação ao tamanho da fonte do elemento raiz;
+ex - altura da letra x da fonte do elemento;
+ch - largura mais espaçamento em volta do número 0 da fonte do elemento;
+vw - relativo à largura da viewport;
+vh - relativo à altura da viewport.
+Outras Unidades
+Ângulos:
+deg - grau ( um círculo possui 360deg );
+grad - grado ( um círculo possui 400grad );
+rad - radiano ( um círculo possui 2𝛑rad );
+turn - volta ( um círculo possui 1turn ).
+Duração:
+
+s – segundos;
+ms - milissegundos ( 1/1000s ).
+
+<< Box-Model >> 
+
+    <> Define como que cada elemento sera posicionado no navegador quando ele for renderizado </>
+    <> Conteudo - Podemos manipular na altura e largura (width/height) </>
+    <> Espaçamento interno - preenchimento entre o limite deste elemento, e o conteudo. Este é o pedding </>
+    <> As bordas são os limites do conteudo </>
+    <> Margens - conseguimos espaçar e distanciar outros elementos do nosso conteudo </>

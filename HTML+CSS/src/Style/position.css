@@ -1,0 +1,51 @@
+/* Um elemento absolute tem seu posicionamento relacionado com o elemento pai e não com o elemento anterior, desta maneira elementos anteriores não irão afetar seu posicionamento */
+body{
+    background-color: blueviolet;
+}
+.elementoPai{
+    position: relative;
+    background-color: black;
+    padding: 50px;
+}
+.elementoFilho{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+/* Position */
+/* Especifica como um elemento será posicionado na tela, podemos até posicionar em um ponto específico controlado com os parametros top, right, botton e left */
+/* São quatro tipos de posicionamento disponiveis: static, relative, fixed e absolute. A única configuração que não permite escolher um posicionamento para o elemento é static */
+/* Top - Desloca o elemento na vertical em relação ao topo */
+/* right - desloca o elemento na horizontal, em relação a borda direita */
+/* botton - desloca o elemento na vertical, em relação a borda inferior */
+/* left - desloca o elemento na horizontal, em relaçãp a borda esquerda */
+
+/* Este é o padrão de todo elemento HTML, neste posicionamento, os elementos não podem ser controlados por top, right, botton e left, e não tem seu posicionamento afetado pelo posicionamento de outros elementos */
+.elementoFilho2 {
+    background-color: red;
+    position: static;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+/* Um elemento com relative tem seu posicionamento relacionado com o elemento anterior */
+.elementoFilho3 {
+    background-color: green;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+/* o Fixed tem o mesmo comportamento do absolute, só que com o nome ja diz, ele fica fixo na tela, isso é, mesmo se acontecer a rolgem, ele ficará fixado na pagina  */
+.elementoFilho4 {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}

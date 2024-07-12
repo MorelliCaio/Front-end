@@ -1,0 +1,9 @@
+div, p{
+    background-color: rgb(120, 120, 255);
+}
+
+span, a{
+    background-color: rgb(104, 241, 104);
+    display: inline-block;
+    width: 500px;
+}

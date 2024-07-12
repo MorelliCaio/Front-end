@@ -1,0 +1,13 @@
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Caso o navegador do usuario não consiga dar suporte para a primeira fonte usada, ele vai tentar usar a proxima */
+}
+
+.test{
+    font-family: "Monoton", sans-serif;
+}
+
+#test{
+    font-family: "inter";
+    font-weight: 900;
+}
